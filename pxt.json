@@ -1,0 +1,22 @@
+{
+    "name": "BoB",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "TobbieII": "github:kaku111/pxt-tobbieii#v2.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}

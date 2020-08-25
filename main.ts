@@ -1,6 +1,5 @@
 let run = false
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
-    
     while (!input.buttonIsPressed(Button.B) && run) {
         if (!(TobbieII.RBlock(512) || TobbieII.LBlock(512))) {
             TobbieII.forward()
